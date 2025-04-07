@@ -1,11 +1,10 @@
-# Summer Eternal Clone
+# Manifesto-Project
 
-This project is a clone of the Summer Eternal website, built using React. It aims to replicate the aesthetic and functionality of the original site.
 
 ## Project Structure
 
 ```
-summer-eternal-clone
+manifesto
 ├── public
 │   ├── index.html        # Main HTML document
 │   └── favicon.ico       # Favicon for the website
@@ -38,13 +37,10 @@ To get a local copy up and running follow these simple steps.
 
 ### Installation
 
-1. Clone the repo
-   ```bash
-   git clone https://github.com/yourusername/summer-eternal-clone.git
-   ```
+1.
 2. Navigate to the project directory
    ```bash
-   cd summer-eternal-clone
+   cd 
    ```
 3. Install the dependencies
    ```bash
