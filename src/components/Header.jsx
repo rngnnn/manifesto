@@ -4,7 +4,7 @@ import './Header.css';
 function Header() {
   return (
     <header className="header">
-      <div className="logo">Summer Eternal</div>
+      <div className="logo"></div>
       <nav className="navigation">
         <ul>
           <li><a href="#home">Home</a></li>
