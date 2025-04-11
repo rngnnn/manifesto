@@ -1,0 +1,24 @@
+/* Genel stil ayarları */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Mono', monospace;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Root div için stil */
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Örnek bir başlık stili */
+h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #222;
+}
