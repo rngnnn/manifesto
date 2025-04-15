@@ -1,18 +1,14 @@
 .hero-section {
 
-    background-image: url('/images/desen.jpg'); /* public klasörüne koyabilirsin */
+ background-image: url(/public/images/desen.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
   
-    background-color: aqua;
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: rgb(83, 9, 9);
-  text-align: center;
-  padding: 20px;
 }
 
 .hero-section h1 {
