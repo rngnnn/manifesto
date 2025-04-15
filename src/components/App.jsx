@@ -3,31 +3,31 @@ import React from 'react';
 import Header from './Header';
 import HeroSection from './HeroSection';
 import Footer from './Footer';
-import '../style.css';
-
+import './'; // Uygulama genel stilleri
 function App() {
   return (
     <>
       <Header />
-
       <main>
         <section id="home">
           <HeroSection />
         </section>
 
         <section id="about">
-          <AboutSection />
+          <h2>About</h2>
+          <p>This is the About section.</p>
         </section>
 
         <section id="projects">
-          {/* ProjectSection gelecektir */}
+          <h2>Projects</h2>
+          <p>This is the Projects section.</p>
         </section>
 
         <section id="contact">
-          {/* ContactSection gelecektir */}
+          <h2>Contact</h2>
+          <p>This is the Contact section.</p>
         </section>
       </main>
-
       <Footer />
     </>
   );
