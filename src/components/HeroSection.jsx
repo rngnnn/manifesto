@@ -1,6 +1,8 @@
 import React from 'react';
 import '../styles/HeroSection.css'; // HeroSection bileşeni için özel stil dosyası
 
+
+
 const HeroSection = () => {
   return (
     <section className="hero-section">

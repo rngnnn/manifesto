@@ -1,6 +1,6 @@
 // src/components/Footer.jsx
 import React from 'react';
-import './Footer.css';
+import '../styles/Footer.css'; // Footer bileşeni için özel stiller
 
 const Footer = () => {
   return (

@@ -1,11 +1,11 @@
 // src/components/Header.jsx
 import React from 'react';
-import './Header.css';
+import '../styles/Header.css'; // Header bileşeni için özel stiller
 
 const Header = () => {
   return (
     <header className="header">
-      <a href="#" className="header-logo">MyLogo</a>
+      <a href="#" className="header-logo"></a>
       <nav className="header-nav">
         <a href="#home">Home</a>
         <a href="#about">About</a>

@@ -1,7 +1,8 @@
 .hero-section {
-    background-image: url('../assets/images/ghost.jpg'); /* public klasörüne koyabilirsin */
+
+    background-image: url('/images/desen.jpg'); /* public klasörüne koyabilirsin */
   
-  
+    background-color: aqua;
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -9,7 +10,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: rgb(83, 9, 9);
   text-align: center;
   padding: 20px;
 }
@@ -25,7 +26,7 @@
 }
 
 .hero-section .cta-button {
-  background-color: #ff6f61;
+  background-color: #9e0d00;
   color: white;
   padding: 10px 20px;
   border: none;
