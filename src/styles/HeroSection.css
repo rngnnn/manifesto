@@ -1,4 +1,7 @@
 .hero-section {
+    background-image: url('../assets/images/ghost.jpg'); /* public klasörüne koyabilirsin */
+  
+  
   background-size: cover;
   background-position: center;
   height: 100vh;

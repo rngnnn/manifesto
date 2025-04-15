@@ -1,16 +1,14 @@
 import React from 'react';
-import '../styles/HeroSection.css'; // CSS dosyasını dahil ediyoruz
+import '../styles/HeroSection.css'; // HeroSection bileşeni için özel stil dosyası
 
-function HeroSection() {
+const HeroSection = () => {
   return (
-    <div className="hero-section">
-      <div className="hero-content">
-        <h1>Welcome to Manifesto</h1>
-        <p>Experience the beauty of summer all year round.</p>
-        <button className="cta-button">Get Started</button>
-      </div>
-    </div>
+    <section className="hero-section">
+      <h1>Welcome to My Creative Space</h1>
+      <p>I craft ideas into digital experiences.</p>
+      <button className="cta-button">Explore More</button>
+    </section>
   );
-}
+};
 
 export default HeroSection;
